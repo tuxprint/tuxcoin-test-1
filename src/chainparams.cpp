@@ -132,7 +132,7 @@ public:
 
         // Note that of those with the service bits flag, most only support a subset of possible options
         //Put seed nodes here
-        vSeeds.emplace_back("dnsseed.tuxtoke.life", true);
+        //vSeeds.emplace_back("dnsseed.tuxtoke.life", true);
         //vSeeds.emplace_back("dnsseed.rshaw.space", true);
         //vSeeds.emplace_back("dnsseed.garli.co.in", true);
 
@@ -153,7 +153,7 @@ public:
         checkpointData = {
             {
                 {  0, uint256S("0xcf7938a048f1442dd34f87ce56d3e25455b22a44f676325f1ae8c7a33d0731c7")},
-                {  11500, uint256S("0xd7152d207d6e7b010d3e740fa5d41a9f0b480b6826ad7c3d5c7b04d3c5f3865b")},
+                //{  11500, uint256S("0xd7152d207d6e7b010d3e740fa5d41a9f0b480b6826ad7c3d5c7b04d3c5f3865b")},
             }
         };
 
@@ -246,7 +246,7 @@ public:
         checkpointData = (CCheckpointData) {
             {
                 {0, uint256S("0x279f0fda784164aebbface8db434a8801748be987edb585d8025e58379d1b54f")},
-                {11500, uint256S("0xd7152d207d6e7b010d3e740fa5d41a9f0b480b6826ad7c3d5c7b04d3c5f3865b")},
+                //{11500, uint256S("0xd7152d207d6e7b010d3e740fa5d41a9f0b480b6826ad7c3d5c7b04d3c5f3865b")},
             }
         };
 
