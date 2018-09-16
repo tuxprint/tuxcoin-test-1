@@ -300,26 +300,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/Lyra2RE/sph_keccak.h \
   crypto/Lyra2RE/sph_cubehash.h \
   crypto/Lyra2RE/sph_types.h \
-  crypto/Lyra2RE/sph_bmw.h\
-  crypto/Lyra2REv2/Lyra2RE.c \
-  crypto/Lyra2REv2/Lyra2RE.h \
-  crypto/Lyra2REv2/Lyra2.c \
-  crypto/Lyra2REv2/Lyra2.h \
-  crypto/Lyra2REv2/Sponge.c \
-  crypto/Lyra2REv2/Sponge.h \
-  crypto/Lyra2REv2/blake.c \
-  crypto/Lyra2REv2/groestl.c \
-  crypto/Lyra2REv2/keccak.c \
-  crypto/Lyra2REv2/skein.c \
-  crypto/Lyra2REv2/cubehash.c \
-  crypto/Lyra2REv2/bmw.c \
-  crypto/Lyra2REv2/sph_blake.h \
-  crypto/Lyra2REv2/sph_groestl.h \
-  crypto/Lyra2REv2/sph_skein.h \
-  crypto/Lyra2REv2/sph_keccak.h \
-  crypto/Lyra2REv2/sph_cubehash.h \
-  crypto/Lyra2REv2/sph_types.h \
-  crypto/Lyra2REv2/sph_bmw.h
+  crypto/Lyra2RE/sph_bmw.h
 
 if USE_ASM
 crypto_libbitcoin_crypto_a_SOURCES += crypto/sha256_sse4.cpp
